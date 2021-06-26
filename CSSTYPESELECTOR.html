@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="eg">
+<head>
+<meta charset="UTF-8">
+<title>Css type selectors</title>
+<link rel="icon" type="icon/png" href="">
+</head>
+<body>
+
+<table border="3">
+<tbody>
+<tr>
+<th>Example</th>
+<th>Classification</th>
+<th>Explanation</th>
+</tr>
+<tr>
+<td data-title='Example'><code>h1</code></td>
+<td data-title='Classification'>Type Selector</td>
+<td data-title='Explanation'>Selects an element by its type</td>
+</tr>
+<tr>
+<td data-title='Example'><code>.tagline</code></td>
+<td data-title='Classification'>Class Selector</td>
+<td data-title='Explanation'>Selects an element by the class attribute value, which may be reused multiple times per page</td>
+</tr>
+<tr>
+<td data-title='Example'><code>#intro</code></td>
+<td data-title='Classification'>ID Selector</td>
+<td data-title='Explanation'>Selects an element by the ID attribute value, which is unique and to only be used once per page</td>
+</tr>
+<tr>
+<td data-title='Example'><code>article h2</code></td>
+<td data-title='Classification'>Descendant Selector</td>
+<td data-title='Explanation'>Selects an element that resides anywhere within an identified ancestor element</td>
+</tr>
+<tr>
+<td data-title='Example'><code>article > p</code></td>
+<td data-title='Classification'>Direct Child Selector</td>
+<td data-title='Explanation'>Selects an element that resides immediately inside an identified parent element</td>
+</tr>
+<tr>
+<td data-title='Example'>h2 ~ p</td>
+<td data-title='Classification'>General Sibling Selector</td>
+<td data-title='Explanation'>Selects an element that follows anywhere after the prior element, in which both elements share the same parent</td>
+</tr>
+<tr>
+<td data-title='Example'>h2 + p</td>
+<td data-title='Classification'>Adjacent Sibling Selector</td>
+<td data-title='Explanation'>Selects an element that follows directly after the prior element, in which both elements share the same parent</td>
+</tr>
+
+
+
+</thead>
+<tbody>
+<tr>
+<td data-title='Example'><code>a[target]</code></td>
+<td data-title='Classification'>Attribute Present Selector</td>
+<td data-title='Explanation'>Selects an element if the given attribute is present</td>
+</tr>
+<tr>
+<td data-title='Example'><code>a[href="http://google.com/"]</code></td>
+<td data-title='Classification'>Attribute Equals Selector</td>
+<td data-title='Explanation'>Selects an element if the given attribute value exactly matches the value stated</td>
+</tr>
+<tr>
+<td data-title='Example'><code>a[href&#42;="login"]</code></td>
+<td data-title='Classification'>Attribute Contains Selector</td>
+<td data-title='Explanation'>Selects an element if the given attribute value contains at least once instance of the value stated</td>
+</tr>
+<tr>
+<td data-title='Example'><code>a[href&#94;="https://"]</code></td>
+<td data-title='Classification'>Attribute Begins With Selector</td>
+<td data-title='Explanation'>Selects an element if the given attribute value begins with the value stated</td>
+</tr>
+<tr>
+<td data-title='Example'><code>a[href&#36;=".pdf"]</code></td>
+<td data-title='Classification'>Attribute Ends With Selector</td>
+<td data-title='Explanation'>Selects an element if the given attribute value ends with the value stated</td>
+</tr>
+<tr>
+<td data-title='Example'><code>a[rel&#126;="tag"]</code></td>
+<td data-title='Classification'>Attribute Spaced Selector</td>
+<td data-title='Explanation'>Selects an element if the given attribute value is whitespace-separated with one word being exactly as stated</td>
+</tr>
+<tr>
+<td data-title='Example'><code>a[lang&#124;="en"]</code></td>
+<td data-title='Classification'>Attribute Hyphenated Selector</td>
+<td data-title='Explanation'>Selects an element if the given attribute value is hyphen-separated and begins with the word stated</td>
+</tr>
+</tr>
+</tbody>
+</table>
+</tbody>
+
+
+</BODY>
+</HTML>
